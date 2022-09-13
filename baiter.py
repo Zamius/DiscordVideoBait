@@ -10,7 +10,7 @@ def bait(P, P2, out=False):
 
     #File fetch from arg or generate standard
     FILENAME = "".join([out if out is not False else "output"])
-    if not FILENAME.endswith("mp4") or not FILENAME.endswith(".webm"):
+    if not FILENAME.endswith(".mp4") or not FILENAME.endswith(".webm"):
         FILENAME = FILENAME + ".webm"
     
     try:
