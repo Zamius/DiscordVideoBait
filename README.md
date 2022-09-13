@@ -8,8 +8,8 @@ This simple script concatenates a 0.1 second image right before a video, useful 
 Open command prompt and go to the location of the script.
 
 Example:
-python baiter.py -b (image_path) (video_path) "Will concatenate your image at the beginning of the video"
-python baiter.py -b (image_path) (video_path) -o filename.webm "Will save the output file as filename.webm, this argument is optional and the program will save your file as output.webm if not given"
+python baiter.py -b (image_path) (video_path) "Will concatenate your image at the beginning of the video"<br />
+python baiter.py -b (image_path) (video_path) -o filename.webm "Will save the output file as filename.webm, this argument is optional and the program will save your file as output.webm if not given"<br />
 
 ### REQUIREMENTS ###
 
